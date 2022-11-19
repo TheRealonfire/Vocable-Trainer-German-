@@ -16,10 +16,10 @@ On linux use this: <i><b> git install https://github.com/TheRealonfire/Vocable-T
 If it's not+
 
 
-On Windows you need to do the following steps:
-1.Select Code
-2.click on download Zip
-3.extrak that
+On Windows you need to do the following steps:<br>
+1.Select Code<br>
+2.click on download Zip <br>
+3.extrak that<br>
 
 Mac OS:
 we cannot describe yet
