@@ -2,14 +2,16 @@
 from time import sleep
 import random
 from typing import Counter
+from googletrans import Translator
 while_voc_input = True
 many_loop = True
 vokabel = list()
 vokabel_finish = list()
 Counter = 0
 score = 0
+percent = 100
 # This  Script save the vocable:
-print('Lol K Prouduce © 0.0.01')
+print('Lol K Prouduce © 0.0.1')
 print('First write your vocables')
 sleep(2)
 while while_voc_input:
@@ -50,8 +52,14 @@ while many_loop:
 
     vokabel.remove(random_voc)
 
-    if questionvoc == "test":
-        print('hello world')
+    denword = Translator(service_urls=['translate.googleapis.com'])
+
+    enword = denword.translate(random_voc, src="en", dest="de")
+
+    correct_voc = enword.text
+    
+    if questionvoc == correct_voc:
+        print('correct')
         score += 1
 
 
@@ -61,3 +69,10 @@ while many_loop:
         break
 
 print('stopp')
+sleep(1)
+print('You got ' +  str(score) + ' coorect')
+
+percentscore = score / many
+percent = round(percentscore * 100, 2)
+
+print('You got: ' + str(percent) + '% right' )
