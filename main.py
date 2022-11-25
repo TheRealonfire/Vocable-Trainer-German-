@@ -1,4 +1,5 @@
 # Preparations
+
 from time import sleep
 import random
 from typing import Counter
@@ -10,7 +11,9 @@ vokabel_finish = list()
 Counter = 0
 score = 0
 percent = 100
+
 # This  Script save the vocable:
+
 print('Lol K Prouduce © 0.0.1')
 print('First write your vocables')
 sleep(2)
@@ -36,10 +39,12 @@ sleep(1)
 backup_voc = vokabel
 
 #Loop many
+
 many = input ('How many words do u want to test u ?: ')
 many = int(many)
 
 # Main Script
+
 sleep(1)
 while many_loop:
     if not vokabel:
