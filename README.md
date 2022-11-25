@@ -10,7 +10,7 @@ but you dont need this :)
 
 # Installation
 
-You can install that on every device, that has 3.8 or newer.
+You can install that on every device, that has Python Version 3.8 or newer.
 
 On linux use this: <br>
 <i><b> git clone https://github.com/TheRealonfire/Vocable-Trainer-German-/ </b> </i>
