@@ -85,6 +85,14 @@ percent = round(percentscore * 100, 2)
 print('You got: ' + str(percent) + '% right' )
 
 
+
+
+
+
+
+
+#Code Problem!!!!
+
 questiontorepeat = input ("do you want to repeat the vocablary?(Y/n) ")
 if questiontorepeat == "Y" or "y" or "":
     print ('ok we\'ll Setup the Scene')
