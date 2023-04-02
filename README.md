@@ -18,13 +18,10 @@ On linux use this: <br>
 
 
 
-On Windows you need to do the following steps:<br>
+On Windows or apple product, you need to do the following steps:<br>
 1.Select Code<br>
 2.click on download Zip <br>
 3.extract that<br>
-
-Mac OS:
-we cannot describe yet
 
 # apis
 we use the APIS:
